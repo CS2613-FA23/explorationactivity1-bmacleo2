@@ -3,7 +3,7 @@
 
 ## 1. What package/library does the sample program demonstrate?
 
-The sample program demonstrates the use of the bcrypt library in Python. 
+The sample program demonstrates the use of the BCrypt library in Python. 
 
 ## 2. To run:
 

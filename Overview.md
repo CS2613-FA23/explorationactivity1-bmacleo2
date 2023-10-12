@@ -37,17 +37,20 @@ To check the password we use .checkpw to compare an encoded password against the
 
 ## 3. What are the functionalities of the package/library?
 
-Salt generation. 
+Salt generation.
+
     salt = bcrypt.gensalt()
 
 Password checking or comparison.
+
     if bcrypt.checkpw(password, hashed):
         print("It Matches!")
     else:
         print("It Does not Match :(")
     [ref](https://github.com/pyca/bcrypt)
 
-Hashing psaswords: 
+Hashing psaswords:
+
     hash = bcrypt.hashpw(bytes, salt) 
 
 ## 4. When was it created?

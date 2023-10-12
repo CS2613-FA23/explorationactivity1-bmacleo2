@@ -66,7 +66,7 @@ Specifically learning about encoding in utf-8 and realizing that BCrypt cannot o
 ### • When would you recommend this package/library to someone?
 I would recommend this library to anyone who needs a quick and simple way to salt and hash a value in Python. 
 ### • Would you continue using this package/library? Why or why not?
-While this library accomplishes what it needs to by hashing passwords effectively, I would want to avoid using it as much as possible since the idea of programming a secure interface to store passwords seems daunting. If I could avoid programming something like this in a workplace setting for example, I'd alternatively use OAuth. However if a simple program is required and the use of OAuth is too expensive or simply does not make sense for the scale of the program required or if Internet access is not an option, BCrypt is a viable solution. 
+While this library accomplishes what it needs to by hashing passwords effectively, I would want to avoid using it as much as possible since the idea of programming a secure interface to store passwords seems daunting. If I could avoid programming something like this in a workplace setting for example, I'd alternatively use OAuth. However if a simple program is required and the use of OAuth is too expensive or simply does not make sense for the scale of the program required or if Internet access is not an option, BCrypt is a viable solution. The sample program for example due to the game nature of it would make no sense to use OAuth. 
 
 
 

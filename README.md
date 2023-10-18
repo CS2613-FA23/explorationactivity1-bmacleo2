@@ -7,6 +7,8 @@ The sample program demonstrates the use of the BCrypt library in Python.
 
 ## 2. To run:
 
+pip install bcrypt
+
 python bcryptDemo.py
 
 ## 3. What purpose does your program serve?
